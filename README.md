@@ -1,3 +1,7 @@
+## About this fork
+
+The original project is not PHP8 compatible. There is [a PR fixing it](https://github.com/receipt-print-hq/escpos-tools/pull/76), but the project seems unattended by people able to merge it. While we wait for it, this fork is the alternative solution.
+
 ESC/POS command-line tools [![Build Status](https://travis-ci.org/receipt-print-hq/escpos-tools.svg?branch=master)](https://travis-ci.org/receipt-print-hq/escpos-tools)
 --------------
 
@@ -19,7 +23,7 @@ This project is requires:
 To install from source:
 
 ```bash
-git clone https://github.com/receipt-print-hq/escpos-tools
+git clone https://github.com/enspirit/escpos-tools.git
 cd escpos-tools
 composer install
 ```
